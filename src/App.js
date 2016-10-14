@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Images from './Images';
+import ImageContainer from './ImageContainer';
 import Gallery from './Gallery';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
           <h2>Surf is up</h2>
         </div>
 
-        <Images />
+        <ImageContainer />
       </div>
     );
   }
